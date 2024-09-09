@@ -14,8 +14,10 @@ const Footer = () => {
         <div className="flex-1 grid grid-cols-2 md:grid-cols-3 gap-10">
           {/* Company Links */}
           <div>
-            <h1 className="font-semibold text-lg mb-4">Company</h1>
-            <ul className="space-y-2">
+            <h1 className=" mb-4 font-manuale text-base font-bold leading-6 text-left">
+              Company
+            </h1>
+            <ul className="space-y-2 font-montserrat text-sm font-normal leading-[40px] text-left">
               <li>
                 <a href="#" className="hover:underline">
                   About
@@ -41,8 +43,10 @@ const Footer = () => {
 
           {/* Help Links */}
           <div>
-            <h1 className="font-semibold text-lg mb-4">Help</h1>
-            <ul className="space-y-2">
+            <h1 className="mb-4 font-manuale text-base font-bold leading-6 text-left">
+              Help
+            </h1>
+            <ul className="space-y-2 font-montserrat text-sm font-normal leading-[40px] text-left ">
               <li>
                 <a href="#" className="hover:underline">
                   Customer Support
@@ -68,8 +72,10 @@ const Footer = () => {
 
           {/* Resources Links */}
           <div>
-            <h1 className="font-semibold text-lg mb-4">Resources</h1>
-            <ul className="space-y-2">
+            <h1 className="mb-4 font-manuale text-base font-bold leading-6 text-left">
+              Resources
+            </h1>
+            <ul className="space-y-2 font-montserrat text-sm font-normal leading-[40px] text-left">
               <li>
                 <a href="#" className="hover:underline">
                   Free eBooks
@@ -112,7 +118,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section: Copyright */}
-      <div className="text-center mt-8 text-sm text-white/80">
+      <div className="text-center mt-8 font-poppins text-sm font-normal leading-[22px] text-[#FFFFFF]">
         &copy; Copyright 2023-24, All Rights Reserved by Charity
       </div>
     </footer>
