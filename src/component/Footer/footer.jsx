@@ -4,14 +4,14 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-[#399866] rounded-t-[30px] py-10 text-white">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start space-y-6 md:space-y-0 px-5 md:px-20">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start space-y-6 md:space-y-0 px-5 md:px-20 ">
         {/* Left Section: Company Logo */}
-        <div className="flex-shrink-0">
-          <img src={Logo} alt="Company Logo" className="w-[80px] h-auto" />
+        <div className="">
+          <img src={Logo} alt="Company Logo" className="" />
         </div>
 
         {/* Center Section: Footer Links */}
-        <div className="flex-1 grid grid-cols-2 md:grid-cols-3 gap-10">
+        <div className=" grid grid-cols-2 md:grid-cols-3 gap-10">
           {/* Company Links */}
           <div>
             <h1 className=" mb-4 font-manuale text-base font-bold leading-6 text-left">
