@@ -42,7 +42,7 @@ const Navbar = () => {
           </div>
           {/* Mobile Hamburger Menu Section */}
           <div className="md:hidden" onClick={() => setOpen(!open)}>
-            <img src={Hamburger} alt="Menu" className="text-4xl" />
+            <img src={Hamburger} alt="Menu" className="text-4xl z-40" />
           </div>
         </div>
       </nav>
