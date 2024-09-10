@@ -18,34 +18,6 @@ const Footer = () => {
                 className="h-[113px] w-[113px] mb-6"
               />
             </div>
-            {/* Help Links */}
-            <div className="text-left md:text-left">
-              <h1 className="mb-4 font-manuale text-[16px] font-bold leading-[24px]">
-                Help
-              </h1>
-              <ul className="space-y-2 font-montserrat text-[14px] font-normal leading-[40px]">
-                <li>
-                  <a href="#" className="hover:underline">
-                    Customer Support
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Delivery Details
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Terms & Conditions
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Privacy Policy
-                  </a>
-                </li>
-              </ul>
-            </div>
 
             {/* Company Links */}
             <div className="text-left md:text-left">
@@ -71,6 +43,34 @@ const Footer = () => {
                 <li>
                   <a href="#" className="hover:underline">
                     Career
+                  </a>
+                </li>
+              </ul>
+            </div>
+            {/* Help Links */}
+            <div className="text-left md:text-left">
+              <h1 className="mb-4 font-manuale text-[16px] font-bold leading-[24px]">
+                Help
+              </h1>
+              <ul className="space-y-2 font-montserrat text-[14px] font-normal leading-[40px]">
+                <li>
+                  <a href="#" className="hover:underline">
+                    Customer Support
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Delivery Details
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Terms & Conditions
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Privacy Policy
                   </a>
                 </li>
               </ul>
