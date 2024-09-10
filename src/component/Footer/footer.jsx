@@ -6,18 +6,25 @@ const Footer = () => {
     <footer className="bg-[#399866] rounded-t-[40px] py-10 text-white">
       <div className="container mx-auto flex flex-col items-center md:flex-row justify-between px-5 md:px-20">
         {/* Left Section: Company Logo */}
-        <div className="flex flex-col items-center md:items-start mb-6 md:mb-0">
+        {/* <div className="flex flex-col items-center md:items-start mb-6 md:mb-0">
           <img
             src={Logo}
             alt="Company Logo"
             className="h-[113px] w-[113px] mb-6"
           />
-        </div>
+        </div> */}
 
         {/* Center Section: Footer Links */}
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-3 justify-center md:justify-between w-full md:w-auto">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 justify-between md:justify-between w-full md:w-auto ">
+          <div className="flex flex-col items-left md:items-start mb-6 md:mb-0">
+            <img
+              src={Logo}
+              alt="Company Logo"
+              className="h-[113px] w-[113px] mb-6"
+            />
+          </div>
           {/* Help Links */}
-          <div className="text-center md:text-left">
+          <div className="text-left md:text-left">
             <h1 className="mb-4 font-manuale text-[16px] font-bold leading-[24px]">
               Help
             </h1>
@@ -46,7 +53,7 @@ const Footer = () => {
           </div>
 
           {/* Company Links */}
-          <div className="text-center md:text-left">
+          <div className="text-left md:text-left">
             <h1 className="mb-4 font-manuale text-[16px] font-bold leading-[24px]">
               Company
             </h1>
@@ -75,7 +82,7 @@ const Footer = () => {
           </div>
 
           {/* Resources Links */}
-          <div className="text-center md:text-left">
+          <div className="text-left md:text-left">
             <h1 className="mb-4 font-manuale text-[16px] font-bold leading-[24px]">
               Resources
             </h1>
