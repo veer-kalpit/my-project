@@ -1,7 +1,7 @@
 import Navbar from "./component/Navbar/navbar";
 import Hero from "./component/Hero/Hero";
 import Stats from "./component/Statistics/stats";
-import Banner from "./component/Urgent_cause/banner"
+import Banner from "./component/Urgent_cause/banner";
 import Donate from "./component/Donate/Donate";
 import Footer from "./component/Footer/footer";
 
@@ -13,7 +13,7 @@ const App = () => {
       <Stats />
       <Banner />
       <Donate />
-      <Footer/>
+      <Footer />
     </div>
   );
 };

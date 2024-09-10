@@ -3,50 +3,25 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#399866] rounded-t-[30px] py-10 text-white">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start space-y-6 md:space-y-0 px-5 md:px-20 ">
+    <footer className="bg-[#399866] rounded-t-[40px] py-10 text-white">
+      <div className="container mx-auto flex flex-col items-center md:flex-row justify-between px-5 md:px-20">
         {/* Left Section: Company Logo */}
-        <div className="">
-          <img src={Logo} alt="Company Logo" className="" />
+        <div className="flex flex-col items-center md:items-start mb-6 md:mb-0">
+          <img
+            src={Logo}
+            alt="Company Logo"
+            className="h-[113px] w-[113px] mb-6"
+          />
         </div>
 
         {/* Center Section: Footer Links */}
-        <div className=" grid grid-cols-2 md:grid-cols-3 gap-10">
-          {/* Company Links */}
-          <div>
-            <h1 className=" mb-4 font-manuale text-base font-bold leading-6 text-left">
-              Company
-            </h1>
-            <ul className="space-y-2 font-montserrat text-sm font-normal leading-[40px] text-left">
-              <li>
-                <a href="#" className="hover:underline">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Features
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Works
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Career
-                </a>
-              </li>
-            </ul>
-          </div>
-
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-3 justify-center md:justify-between w-full md:w-auto">
           {/* Help Links */}
-          <div>
-            <h1 className="mb-4 font-manuale text-base font-bold leading-6 text-left">
+          <div className="text-center md:text-left">
+            <h1 className="mb-4 font-manuale text-[16px] font-bold leading-[24px]">
               Help
             </h1>
-            <ul className="space-y-2 font-montserrat text-sm font-normal leading-[40px] text-left ">
+            <ul className="space-y-2 font-montserrat text-[14px] font-normal leading-[40px]">
               <li>
                 <a href="#" className="hover:underline">
                   Customer Support
@@ -70,12 +45,41 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* Company Links */}
+          <div className="text-center md:text-left">
+            <h1 className="mb-4 font-manuale text-[16px] font-bold leading-[24px]">
+              Company
+            </h1>
+            <ul className="space-y-2 font-montserrat text-[14px] font-normal leading-[40px]">
+              <li>
+                <a href="#" className="hover:underline">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:underline">
+                  Features
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:underline">
+                  Works
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:underline">
+                  Career
+                </a>
+              </li>
+            </ul>
+          </div>
+
           {/* Resources Links */}
-          <div>
-            <h1 className="mb-4 font-manuale text-base font-bold leading-6 text-left">
+          <div className="text-center md:text-left">
+            <h1 className="mb-4 font-manuale text-[16px] font-bold leading-[24px]">
               Resources
             </h1>
-            <ul className="space-y-2 font-montserrat text-sm font-normal leading-[40px] text-left">
+            <ul className="space-y-2 font-montserrat text-[14px] font-normal leading-[40px]">
               <li>
                 <a href="#" className="hover:underline">
                   Free eBooks
@@ -83,7 +87,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  Development Tutorials
+                  Development Tutorial
                 </a>
               </li>
               <li>
@@ -93,7 +97,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  YouTube Playlist
+                  Youtube Playlist
                 </a>
               </li>
             </ul>
@@ -101,24 +105,36 @@ const Footer = () => {
         </div>
 
         {/* Right Section: Social Media Icons */}
-        <div className="flex space-x-4">
-          <a href="#" className="text-xl hover:text-gray-300">
+        <div className="flex space-x-4 mt-6 md:mt-0 justify-center">
+          <a
+            href="#"
+            className="w-[36px] h-[36px] bg-white rounded-full text-[#696969] hover:bg-[#f0f0f0] flex items-center justify-center"
+          >
             <FaFacebookF />
           </a>
-          <a href="#" className="text-xl hover:text-gray-300">
+          <a
+            href="#"
+            className="w-[36px] h-[36px] bg-white rounded-full text-[#696969] hover:bg-[#f0f0f0] flex items-center justify-center"
+          >
             <FaTwitter />
           </a>
-          <a href="#" className="text-xl hover:text-gray-300">
+          <a
+            href="#"
+            className="w-[36px] h-[36px] bg-white rounded-full text-[#696969] hover:bg-[#f0f0f0] flex items-center justify-center"
+          >
             <FaInstagram />
           </a>
-          <a href="#" className="text-xl hover:text-gray-300">
+          <a
+            href="#"
+            className="w-[36px] h-[36px] bg-white rounded-full text-[#696969] hover:bg-[#f0f0f0] flex items-center justify-center"
+          >
             <FaYoutube />
           </a>
         </div>
       </div>
 
       {/* Bottom Section: Copyright */}
-      <div className="text-center mt-8 font-poppins text-sm font-normal leading-[22px] text-[#FFFFFF]">
+      <div className="mt-8 border-t border-[#f0f0f0] pt-4 text-center font-montserrat text-[14px] font-normal leading-[22px] text-white">
         &copy; Copyright 2023-24, All Rights Reserved by Charity
       </div>
     </footer>
