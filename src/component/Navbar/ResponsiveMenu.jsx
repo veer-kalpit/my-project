@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const ResponsiveMenu = ({ open }) => {
   return (
     open && (
-      <div className="absolute top-20 left-0 w-full h-screen z-20">
+      <div className="absolute top-20 left-0 w-full h-screen z-40">
         <div className="text-xl font-semibold uppercase bg-[#399866] text-[#FDC137] py-10 m-6 rounded-3xl">
           <ul className="flex flex-col justify-center items-center gap-10">
             <li>Home</li>
